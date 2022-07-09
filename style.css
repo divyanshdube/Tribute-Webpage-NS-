@@ -1,3 +1,22 @@
+@keyframes first-animate {
+  0% {
+    background-color: orange;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: darkgreen;
+  }
+}
+
+div {
+  width: 100%;
+  height: 100%;
+  background-color: lightgreen;
+  animation-name: first-animate;
+  animation-duration: 20s;
+}
 header {
   color: whitesmoke;
   font-family: "Times New Roman", Times, serif;
